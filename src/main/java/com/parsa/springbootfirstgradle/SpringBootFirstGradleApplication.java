@@ -13,8 +13,14 @@ public class SpringBootFirstGradleApplication {
         ApplicationContext context = SpringApplication.run(SpringBootFirstGradleApplication.class, args);
 
 //        we want to let spring to create the object for us
-        Alien alien = context.getBean(Alien.class);
-        alien.code();
+//        Alien alien = context.getBean(Alien.class);
+//        alien.code();
+//
+        Alien alien1 = context.getBean(Alien.class);
+        alien1.code();
+
+//        Laptop laptop = context.getBean(Laptop.class);
+//        laptop.compile();
 
     }
 
